@@ -1,0 +1,5 @@
+map <S-F11> :!ctags -R -f $VIRTUAL_ENV/tags $VIRTUAL_ENV/lib/python*/site-packages<CR>
+map <S-F12> :!ctags -a -R -f $VIRTUAL_ENV/tags <CR>
+set tags=$VIRTUAL_ENV/tags
+nnoremap <silent> <F6> :bp<CR>
+nnoremap <silent> <F7> :bn<CR>
